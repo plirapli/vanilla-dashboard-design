@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Document</title>
   </head>
   <body class="grid">
     <header class="header">
-      <div class="logo">
-        <img src="" alt="Logo.png" />
-      </div>
+      <div class="title">Dashboard</div>
       <div class="search-bar">
-        <input type="text" placeholder="Search" />
-        <i>O</i>
+        <input type="text" placeholder="Search..." />
+        <span class="material-icons-outlined"> search </span>
       </div>
       <div class="right-side">
-        <button class="icon notif"><i>N</i></button>
-        <button class="icon settings"><i>S</i></button>
+        <button class="icon notif">
+          <span class="material-icons-outlined"> notifications </span>
+        </button>
+        <button class="icon settings">
+          <span class="material-icons-outlined"> settings </span>
+        </button>
         <div class="profile">
           <img class="img-profile" src="assets/catpic-ava-min.jpg" alt="ava" />
         </div>
@@ -27,13 +33,34 @@
     <main>
       <nav>
         <ul>
-          <li class="nav-list active"><i>O</i> overview</li>
-          <li class="nav-list"><i>O</i> courses</li>
-          <li class="nav-list"><i>O</i> spreadsheets</li>
-          <li class="nav-list"><i>O</i> schedule</li>
-          <li class="nav-list"><i>O</i> homework</li>
-          <li class="nav-list"><i>O</i> events</li>
-          <li class="nav-list"><i>O</i> message</li>
+          <li class="nav-list active">
+            <span class="material-icons-outlined">dashboard</span>
+            overview
+          </li>
+          <li class="nav-list">
+            <span class="material-icons-outlined"> local_library </span>
+            courses
+          </li>
+          <li class="nav-list">
+            <span class="material-icons-outlined"> list_alt </span>
+            spreadsheets
+          </li>
+          <li class="nav-list">
+            <span class="material-icons-outlined"> calendar_today </span>
+            schedule
+          </li>
+          <li class="nav-list">
+            <span class="material-icons-outlined"> description </span>
+            homework
+          </li>
+          <li class="nav-list">
+            <span class="material-icons-outlined"> travel_explore </span>
+            events
+          </li>
+          <li class="nav-list">
+            <span class="material-icons-outlined"> chat </span>
+            message
+          </li>
         </ul>
         <footer>
           <p class="bold">Cerbo 2021</p>
@@ -41,7 +68,7 @@
           <a href="#" class="tou">Term of use</a>
         </footer>
       </nav>
-      <section>tes</section>
+      <section></section>
     </main>
   </body>
 </html>
