@@ -172,7 +172,6 @@ li.nav-list i {
 footer {
   padding: 1rem;
   padding-bottom: 2rem;
-  /* border: var(--border); */
   line-height: 0.5rem;
   font-size: smaller;
 }
@@ -189,33 +188,34 @@ footer .tou {
 }
 /* END NAV */
 
-/* SECTION */
+/* MAIN */
 main {
   flex-grow: 1;
   background-color: rgb(var(--main-bg));
   padding: 2rem;
 }
 
+/* DISCIPLINES SECTION */
 .disciplines .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(192px, 1fr));
   gap: 1rem;
 }
 
-.box-course:nth-child(1) {
+.disciplines .box-course:nth-child(1) {
   background: var(--grad-green-w);
 }
-.box-course:nth-child(2) {
+.disciplines .box-course:nth-child(2) {
   background: var(--grad-blue-w);
 }
-.box-course:nth-child(3) {
+.disciplines .box-course:nth-child(3) {
   background: var(--grad-red-w);
 }
-.box-course:nth-child(4) {
+.disciplines .box-course:nth-child(4) {
   background: var(--grad-gray-w);
 }
 
-.box-course {
+.disciplines .box-course {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,11 +224,16 @@ main {
   padding: 1rem;
 }
 
-.box-course .title {
+.disciplines .box-course .title {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 0.25rem;
 }
+/* END DISCIPLINES SECTION */
 
-/* END SECTION */
+/* OVERVIEW SECTION */
+
+/* END OVERVIEW SECTION */
+
+/* END MAIN */
